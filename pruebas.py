@@ -20,11 +20,18 @@ reservadas = {
     "mientras": "MIENTRAS"
 }
 
-operadores = {
-    "+" : "suma",
-    "-" : "resta",
-    "*" : "multiplicacion",
-    "/" : "division",
+signosysimbolos = {
+    "+" : "SUMA",
+    "-" : "RESTA",
+    "*" : "PRODUCTO",
+    "/" : "DIVISION",
+    "!=" : "DIFERENTE_DE",
+    "=" : "ASIGNACION",
+    "==" : "IGUAL_A",
+    "<=" : "MENOR_IGUAL_A",
+    ">=" : "MAYOR_IGUAL_A",
+    "<" : "MENOR_A",
+    ">" : "MAYOR_A",
 }
 
 
