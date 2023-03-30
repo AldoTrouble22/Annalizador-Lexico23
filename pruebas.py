@@ -3,15 +3,21 @@ import tokenize
 import Token
 
 reservadas = {
-    "def" : "DEF",
-    "for" : "FOR",
-    "range": "RANGE",
-    "print" : "PRINT",
-    "int" : "INT",
-    "input" : "INPUT",
-    "append" : "APPEND",
-    "return" : "RETURN",
-    "in": "IN",
+    "y": "Y",
+    "clase": "CLASE",
+    "falso": "FALSO",
+    "parar": "PARAR",
+    "funcion": "FUNCION",
+    "si": "SI",
+    "nulo": "NULO",
+    "o": "O",
+    "imprimir": "IMPRIMIR",
+    "retornar": "RETORNAR",
+    "super": "SUPER",
+    "este": "ESTE",
+    "verdadero": "VERDADERO",
+    "variable": "VARIABLE",
+    "mientras": "MIENTRAS"
 }
 
 operadores = {
