@@ -20,7 +20,7 @@ reservadas = {
     "mientras": "MIENTRAS"
 }
 
-signosysimbolos = {
+operadores = {
     "+" : "SUMA",
     "-" : "RESTA",
     "*" : "PRODUCTO",
