@@ -10,9 +10,9 @@ def analizador_lexico(codigo):
 
         # Verificar si la cadena empieza con alguna palabra reservada
         for palabra, token in reservadas.items():
-            if codigo.startswith(palabra, posicion):
+            if codigo[posicion:].split(maxsplit=1)[0] == palabra:
                 tokens.append((token, palabra))
-                posicion += len(palabra)
+                posicion += len(palabra)+1
                 encontrado = True
                 break
 
