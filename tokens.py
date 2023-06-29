@@ -23,14 +23,14 @@ operadores = {
     r'-': 'RESTA',
     r'\*': 'MULTIP',
     r'/': 'DIVISION',
+    r'!=': 'DIFERENTE',
     r'!': 'NEGACION',
-    #r'!=': 'DIFERENTE',
+    r'==': 'IGUAL_A',
     r'=': 'ASIGNACION',
-    #r'==': 'IGUAL_A',
+    r'<=': 'MENOR_IGUAL',
     r'<': 'MENOR_QUE',
-    #r'<=': 'MENOR_IGUAL',
-    r'>': 'MAYOR_QUE',
-    #r'>=': 'MAYOR_IGUAL'
+    r'>=': 'MAYOR_IGUAL',
+    r'>': 'MAYOR_QUE'
     }
 
 simbolos = {
